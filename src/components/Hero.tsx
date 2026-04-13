@@ -4,19 +4,19 @@ interface HeroProps {
 
 const translations = {
   en: {
-    title: "Alexander Voss",
-    subtitle: "Classical Pianist",
-    description: "A virtuoso performer captivating audiences at the world's most prestigious concert halls",
+    title: "Sofia Morozova",
+    subtitle: "Actress · Theatre & Cinema",
+    description: "A captivating artist whose performances on stage and screen leave an indelible mark on every audience",
   },
   de: {
-    title: "Alexander Voss",
-    subtitle: "Klassischer Pianist",
-    description: "Ein virtuoser Performer, der Publikum in den renommiertesten Konzertsalen der Welt fasziniert",
+    title: "Sofia Morozova",
+    subtitle: "Schauspielerin · Theater & Kino",
+    description: "Eine fesselnde Künstlerin, deren Auftritte auf der Bühne und der Leinwand das Publikum nachhaltig bewegen",
   },
   ru: {
-    title: "Александр Фосс",
-    subtitle: "Классический пианист",
-    description: "Виртуозный исполнитель, очаровывающий публику в престижнейших концертных залах мира",
+    title: "София Морозова",
+    subtitle: "Актриса театра и кино",
+    description: "Тонкая, выразительная, многогранная — её роли остаются в памяти зрителей надолго",
   },
 }
 
@@ -28,8 +28,8 @@ export default function Hero({ language }: HeroProps) {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3797.JPG-D5CA7ICwqzRlSb4xwdgFIdtxI4Epof.jpeg"
-          alt="Pianist performing"
+          src="https://cdn.poehali.dev/projects/c6ec1d74-0c6a-4662-ba86-8a0513769e2e/files/6d44515a-2c8a-4707-ae3e-51db6c574407.jpg"
+          alt="Sofia Morozova"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-charcoal/35"></div>
